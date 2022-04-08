@@ -24,7 +24,6 @@ suite('UnitTests', () => {
   });
   
   test('Logic handles a valid row placement', function(done) {
-    console.log(Solver.checkRowPlacement(okPuzzle, 0, 0, 7));
     assert.equal(Solver.checkRowPlacement(okPuzzle, 0, 0, 7), true);
     done();
   });

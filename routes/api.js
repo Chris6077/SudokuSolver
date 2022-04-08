@@ -59,7 +59,7 @@ module.exports = function (app) {
           if(solved)
             res.send({ solution: solved });
           else
-            res.send({ error: 'Puzzle cannot be solved'});
+            res.send({ error: 'Puzzle cannot be solved' });
         }
       }
       else
