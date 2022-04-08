@@ -37,7 +37,7 @@ app.use(function(req, res, next) {
 
 //Start our server and tests!
 const PORT = process.env.PORT || 3000
-if (require.main === module) {
+//if (require.main === module) {
   app.listen(PORT, function () {
     console.log("Listening on port " + PORT);
     // process.env.NODE_ENV='test'
@@ -53,6 +53,6 @@ if (require.main === module) {
       }, 1500);
     }
   });
-}
+//}
 
 module.exports = app; // for testing
